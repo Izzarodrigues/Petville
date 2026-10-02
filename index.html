@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PetVille</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+  <script>document.documentElement.classList.add("js")</script>
+
+</head>
+
+
+
+<body>
+
+  <!-- HEADER -->
+
+  <header class="header" id="header">
+
+    <div class="container nav-container">
+
+      <div class="logo">
+        <img src="img/logo-removebg-preview.png" alt="PetVille">
+      </div>
+
+      <nav class="nav">
+
+        <ul>
+          <li><a href="#header">Início</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+        </ul>
+
+      </nav>
+
+      <a class="btn-contact" href="#contato">Contato</a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu">
+        <i data-lucide="menu"></i>
+      </button>
+
+    </div>
+
+  </header>
+
+  <div class="menu-overlay"></div>
+
+
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="container hero-container">
+
+      <div class="hero-text">
+        <span class="subtitle">PET SHOP & SPA</span>
+        <h1>
+          Cuidado que seu <br>
+          pet merece
+        </h1>
+        <p>
+          Oferecemos serviços premium de estética, saúde e bem-estar animal,
+          com todo o carinho e profissionalismo que seu melhor amigo merece.
+        </p>
+
+
+        <div class="hero-buttons">
+          <a class="btn-primary" href="#contato">
+            Agendar Agora
+            <i data-lucide="arrow-right"></i>
+          </a>
+          <a class="btn-secondary" href="#servicos">
+            <span class="icon">
+              <i data-lucide="heart"></i>
+            </span>
+            Nossos serviços
+
+          </a>
+
+        </div>
+
+
+
+        <div class="hero-stats">
+
+          <div>
+            <h3>5K+</h3>
+            <p>Pets felizes</p>
+          </div>
+
+          <div>
+            <h3>10+</h3>
+            <p>Anos de Experiência</p>
+          </div>
+
+          <div>
+            <h3>4.9</h3>
+            <p>Avaliação</p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="hero-image">
+
+        <img src="img/1 cachorro.png" alt="Cachorro">
+
+        <div class="hero-card">
+
+          <div class="icon">
+            <i data-lucide="heart"></i>
+          </div>
+
+          <div>
+            <strong>Ambiente Seguro</strong>
+            <p>100% preparado para pets</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- SERVIÇOS -->
+
+  <section class="services" id="servicos">
+
+    <div class="container">
+
+      <span class="section-subtitle">
+        O QUE OFERECEMOS
+      </span>
+
+      <h2 class="section-title">
+        Nossos Serviços
+      </h2>
+
+
+
+      <div class="services-grid">
+
+
+        <div class="service-card reveal">
+
+          <div class="icon">
+            <i data-lucide="sparkles"></i>
+          </div>
+
+          <h3>Banho & Hidratação</h3>
+
+          <p>
+            Banho relaxante com produtos premium e hidratação profunda
+            para pelagem saudável e brilhante.
+          </p>
+
+        </div>
+
+
+
+        <div class="service-card reveal">
+
+          <div class="icon">
+            <i data-lucide="scissors"></i>
+          </div>
+
+          <h3>Tosa Artística</h3>
+
+          <p>
+            Tosas personalizadas com profissionais experientes,
+            respeitando o padrão da raça e o estilo desejado.
+          </p>
+
+        </div>
+
+
+
+        <div class="service-card reveal">
+
+          <div class="icon">
+            <i data-lucide="stethoscope"></i>
+          </div>
+
+          <h3>Veterinário</h3>
+
+          <p>
+            Consultas veterinárias completas, vacinação,
+            exames e acompanhamento de saúde preventiva.
+          </p>
+
+        </div>
+
+
+
+        <div class="service-card reveal">
+
+          <div class="icon">
+            <i data-lucide="shopping-bag"></i>
+          </div>
+
+          <h3>Pet Shop</h3>
+
+          <p>
+            Rações premium, acessórios, brinquedos e tudo o
+            que seu pet precisa em um só lugar.
+          </p>
+
+        </div>
+
+
+
+        <div class="service-card reveal">
+
+          <div class="icon">
+            <i data-lucide="home"></i>
+          </div>
+
+          <h3>Hotel & Creche</h3>
+
+          <p>
+            Hospedagem com monitoramento 24h, atividades
+            recreativas e muito carinho enquanto você viaja.
+          </p>
+
+        </div>
+
+
+
+        <div class="service-card reveal">
+
+          <div class="icon">
+            <i data-lucide="flower"></i>
+          </div>
+
+          <h3>Spa & Bem-estar</h3>
+
+          <p>
+            Tratamentos de spa exclusivos com aromaterapia,
+            massagem relaxante e cuidados especiais.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- SOBRE -->
+
+  <section class="about" id="sobre">
+
+    <div class="container about-container">
+
+      <div class="about-image reveal">
+        <img src="img/image 12.png" alt="Cachorro">
+      </div>
+
+
+      <div class="about-text reveal">
+
+        <span class="section-subtitle">
+          SOBRE NÓS
+        </span>
+
+        <h2>
+          Paixão por cuidar de quem você ama
+        </h2>
+
+        <p>
+          Há mais de uma década, transformamos o cuidado animal
+          em uma experiência de carinho e excelência. Nossa equipe
+          é formada por profissionais qualificados que tratam cada
+          pet como membro da família.
+        </p>
+
+
+        <ul class="about-list">
+
+          <li>
+            <i data-lucide="check"></i>
+            Profissionais certificados e apaixonados por animais
+          </li>
+
+          <li>
+            <i data-lucide="check"></i>
+            Produtos premium e hipoalergênicos
+          </li>
+
+          <li>
+            <i data-lucide="check"></i>
+            Ambiente climatizado e seguro
+          </li>
+
+          <li>
+            <i data-lucide="check"></i>
+            Atendimento personalizado para cada pet
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- DEPOIMENTOS -->
+
+  <section class="testimonials" id="depoimentos">
+
+    <div class="container">
+
+      <span class="section-subtitle">
+        DEPOIMENTOS
+      </span>
+
+      <h2 class="section-title">
+        O que dizem sobre nós
+      </h2>
+
+      <div class="testimonials-grid">
+
+
+        <!-- CARD 1 -->
+
+        <div class="testimonial-card reveal">
+
+          <div class="stars">
+            <i data-lucide="star"></i>
+            <i data-lucide="star"></i>
+            <i data-lucide="star"></i>
+            <i data-lucide="star"></i>
+            <i data-lucide="star"></i>
+          </div>
+
+          <p>
+            "Melhor pet shop da cidade! A Luna adora ir lá,
+            sempre volta cheirosa e feliz."
+          </p>
+
+          <div class="testimonial-user">
+
+            <img src="img/ana.png" alt="Ana Carolina">
+
+            <div>
+              <strong>Ana Carolina</strong>
+              <span>Mãe da Luna (Golden Retriever)</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- CARD 2 -->
+
+        <div class="testimonial-card reveal">
+
+          <div class="stars">
+            <i data-lucide="star"></i>
+            <i data-lucide="star"></i>
+            <i data-lucide="star"></i>
+            <i data-lucide="star"></i>
+            <i data-lucide="star"></i>
+          </div>
+
+          <p>
+            "Confio 100% no trabalho deles. Extremamente profissionais!"
+          </p>
+
+          <div class="testimonial-user">
+
+            <img src="img/ricardo.png" alt="Ricardo Santos">
+
+            <div>
+              <strong>Ricardo Santos</strong>
+              <span>Pai do Thor (Bulldog Francês)</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- CARD 3 -->
+
+        <div class="testimonial-card reveal">
+
+          <div class="stars">
+            <i data-lucide="star"></i>
+            <i data-lucide="star"></i>
+            <i data-lucide="star"></i>
+            <i data-lucide="star"></i>
+            <i data-lucide="star"></i>
+          </div>
+
+          <p>
+            "Ambiente lindo, limpo e organizado. A Mel fez
+            tosa lá e ficou maravilhosa!"
+          </p>
+
+          <div class="testimonial-user">
+
+            <img src="img/juliana.png" alt="Juliana Ferreira">
+
+            <div>
+              <strong>Juliana Ferreira</strong>
+              <span>Mãe da Mel (Shih Tzu)</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CTA -->
+
+  <section class="cta" id="contato">
+
+    <div class="container cta-container">
+
+      <div class="cta-text">
+
+        <span class="eyebrow">AGENDE HOJE</span>
+
+        <h2>
+          Seu pet merece o <span>melhor</span> cuidado
+        </h2>
+
+        <p>
+          Entre em contato conosco e agende um horário.
+          Estamos prontos para oferecer um atendimento
+          exclusivo e personalizado para seu companheiro.
+        </p>
+
+        <a class="btn-primary" href="#contato">
+          Agendar horário
+          <i data-lucide="arrow-right"></i>
+        </a>
+
+      </div>
+
+
+
+      <div class="cta-info">
+
+
+        <div class="info-box reveal">
+
+          <i data-lucide="phone"></i>
+
+          <div>
+            <strong>Telefone</strong>
+            <p>(11) 99999-0000</p>
+          </div>
+
+        </div>
+
+
+
+        <div class="info-box reveal">
+          <i data-lucide="map-pin"></i>
+          <div>
+            <strong>Endereço</strong>
+            <p>Rua das Flores, 123</p>
+          </div>
+        </div>
+
+
+
+        <div class="info-box reveal">
+
+          <i data-lucide="clock"></i>
+
+          <div>
+            <strong>Horário</strong>
+            <p>Seg - Sáb: 9h às 18h</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+    <div class="container footer-container">
+
+      <div class="footer-logo">
+        <img src="img/logo-removebg-preview.png" alt="PetVille">
+      </div>
+
+      <p>
+        ©2026 PetVille todos os direitos reservados
+      </p>
+
+      <div class="social">
+
+        <a><i data-lucide="message-circle"></i></a>
+        <a><i data-lucide="facebook"></i></a>
+        <a><i data-lucide="instagram"></i></a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+</body>
+
+</html>
