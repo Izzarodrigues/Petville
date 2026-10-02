@@ -1,5 +1,3 @@
-# Petville
-
 # 🐾 PetVille
 
 > **Pet Shop & Spa — cuidado, bem-estar e carinho para quem faz parte da família.**
